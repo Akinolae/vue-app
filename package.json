@@ -2,14 +2,18 @@
   "name": "vue-app",
   "version": "0.1.0",
   "private": true,
+  "author": "Makinde Akinola",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "cleanup": "rm -rf node_modules && npm install && npm start",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-router": "^3.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
