@@ -1,13 +1,8 @@
 # vue-app
 
-## Project setup
-```
-npm install
-```
-
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm start
 ```
 
 ### Compiles and minifies for production
@@ -15,10 +10,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Cleanup node_modules and cache
 ```
-npm run lint
+npm run cleanup
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
